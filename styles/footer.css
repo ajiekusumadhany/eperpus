@@ -1,0 +1,204 @@
+.about-us-section {
+  box-sizing: border-box;
+  padding: 6rem;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  background-color: #344c2a;
+  border-radius: 4.8rem;
+  flex-shrink: 0;
+}
+.about-us-wrapper {
+  margin: 0rem 25.6rem 6.564rem 0rem;
+  width: 47.5rem;
+  flex-shrink: 0;
+}
+.about-us-title {
+  margin: 0rem 0rem 8.2rem 0.1rem;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #f6f4ef;
+  font-family: Bakbak One, "Source Sans Pro";
+  white-space: nowrap;
+}
+.about-us-content {
+  width: 50%;
+  height: 21.1362rem;
+  position: relative;
+}
+.welcome-message {
+  width: 47.5rem;
+  height: 18rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #ffd95e;
+  font-family: Bakbak One, "Source Sans Pro";
+}
+.smile-icon {
+  box-sizing: border-box;
+  padding: 3.486rem 3.556rem 2.519rem 2.77rem;
+  width: 11.7362rem;
+  height: 11.7362rem;
+  position: absolute;
+  left: 34.9rem;
+  top: 9.4rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../assets/ellipse-8-KkV.png");
+}
+.smile-img {
+  margin: 0rem 0rem 0.42rem 1.322rem;
+  width: 4.0885rem;
+  height: 2.6559rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.vector-img {
+  margin-right: 0.3443rem;
+  width: 5.0661rem;
+  height: 2.6555rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.library-info p {
+  margin-top: 1.7rem;
+  text-align: right;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, "Source Sans Pro";
+  flex-shrink: 0;
+}
+
+/* awal footer */
+.footer-container {
+  box-sizing: border-box;
+  padding: 4.8rem 10.1rem 4.1rem 9.4rem;
+  min-height: 27.5rem;
+  width: 100vw;
+  background-color: #ffd95e;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  flex-shrink: 0;
+  display: flex;
+}
+
+.brand-section {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.logo-wrapper {
+  height: calc(100% - 9.6rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 5rem;
+  margin-left: -10rem;
+}
+.brand-logo {
+  margin-right: 1.4rem;
+  width: 6rem;
+  height: 6rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.brand-name {
+  font-size: 6.4rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #344c2a;
+  font-family: Bakbak One, "Source Sans Pro";
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.navigation-section {
+  height: 100%;
+  display: flex;
+  column-gap: 10rem;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.footer-menu-container {
+  width: 16.65rem;
+  row-gap: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.footer-menu-judul {
+  width: 100%;
+  text-align: center;
+  font-size: 2.4rem;
+  line-height: 1.5;
+  color: #344c2a;
+  font-weight: 600;
+  font-family: Poppins, "Source Sans Pro";
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.footer-menu {
+  width: 100%;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #344c2a;
+  font-family: Poppins, "Source Sans Pro";
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.contact-detail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.email-info {
+  margin: 0rem 4rem 1rem 0rem;
+  width: calc(100% - 4rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.email-icon {
+  margin-right: 1.6rem;
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.phone-info {
+  margin-left: 0.3rem;
+  width: calc(100% - 0.3rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.phone-icon {
+  margin-right: 1.9rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}

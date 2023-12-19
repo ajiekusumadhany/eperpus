@@ -1,0 +1,133 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffd95e;
+}
+
+.login-container {
+  box-sizing: border-box;
+  padding: 5rem;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffd95e;
+}
+
+.header-section {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 2.5rem;
+  box-shadow: 0 0.4rem 0.5rem #a5a5a5;
+  box-sizing: border-box;
+  width: 40%;
+
+  max-width: 600px; /* Set a maximum width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-text {
+  margin-bottom: 0.1rem;
+}
+
+.welcome-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #344c2a;
+}
+
+.welcome-sub-0 {
+  color: #344c2a;
+}
+
+.welcome-sub-1 {
+  color: #f5bb00;
+}
+
+.login-instruction {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #344c2a;
+}
+
+.login-form {
+  margin-bottom: 0.2rem;
+}
+
+.form-label {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #344c2a;
+  margin-bottom: 0.5rem;
+}
+
+.input-field,
+.password-field {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1.3rem;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  margin-bottom: 0.1rem;
+  box-sizing: border-box;
+}
+
+.password-input-group {
+  display: flex;
+  align-items: center;
+}
+
+.show-password-icon {
+  width: 15px;
+  height: auto;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.password-info {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #344c2a;
+  margin-bottom: 0.2rem;
+}
+
+.login-button-section {
+  text-align: center;
+}
+
+.login-button {
+  background-color: #344c2a;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 0.3rem 6rem;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.register-info {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #344c2a;
+}
+
+.register-info-sub-0 {
+  color: #344c2a;
+}
+
+.register-info-sub-1 {
+  color: #1babd9;
+  cursor: pointer;
+  font-weight: 600;
+}
+.register-info-sub-1 a {
+  color: #1babd9;
+  text-decoration: none;
+}
